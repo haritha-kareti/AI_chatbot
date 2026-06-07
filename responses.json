@@ -1,0 +1,238 @@
+{
+  "intents": [
+
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good evening"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! Welcome to AI Chatbot.",
+        "Greetings! What would you like to know?"
+      ]
+    },
+
+    {
+      "tag": "about bot",
+      "patterns": [
+        "who are you",
+        "what are you",
+        "tell me about yourself"
+      ],
+      "responses": [
+        "I am an AI Chatbot designed to answer your questions.",
+        "I'm a virtual assistant built using Python and Flask."
+      ]
+    },
+
+    {
+      "tag": "ai",
+      "patterns": [
+        "what is ai",
+        "artificial intelligence",
+        "define ai",
+        "explain ai",
+        "tell me about ai"
+      ],
+      "responses": [
+        "Artificial Intelligence enables machines to perform tasks that normally require human intelligence.",
+        "AI is the simulation of human intelligence in machines and computer systems.",
+        "AI helps computers learn, reason, and solve problems like humans."
+      ]
+    },
+
+    {
+      "tag": "machine learning",
+      "patterns": [
+        "what is machine learning",
+        "machine learning",
+        "define machine learning",
+        "explain machine learning",
+        "tell me about machine learning"
+      ],
+      "responses": [
+        "Machine Learning is a subset of AI that allows computers to learn from data.",
+        "Machine Learning uses algorithms to identify patterns and make predictions.",
+        "ML enables systems to improve automatically through experience."
+      ]
+    },
+
+    {
+      "tag": "deep_learning",
+      "patterns": [
+        "what is deep learning",
+        "deep learning",
+        "define deep learning",
+        "explain deep learning"
+      ],
+      "responses": [
+        "Deep Learning is a branch of Machine Learning based on neural networks.",
+        "Deep Learning models can automatically learn complex patterns from large datasets.",
+        "Deep Learning is widely used in image recognition and NLP."
+      ]
+    },
+
+    {
+      "tag": "python",
+      "patterns": [
+        "what is python",
+        "python",
+        "tell me about python",
+        "python programming",
+        "explain python"
+      ],
+      "responses": [
+        "Python is a powerful and easy-to-learn programming language.",
+        "Python is widely used in AI, Machine Learning, Data Science, and Web Development.",
+        "Python is known for its simple syntax and readability."
+      ]
+    },
+
+    {
+      "tag": "python features",
+      "patterns": [
+        "features of python",
+        "python features",
+        "advantages of python"
+      ],
+      "responses": [
+        "Python is simple, readable, portable, and platform-independent.",
+        "Python supports object-oriented programming and thousands of libraries.",
+        "Python is easy to learn and widely used in industry."
+      ]
+    },
+
+    {
+      "tag": "python libraries",
+      "patterns": [
+        "python libraries",
+        "popular python libraries",
+        "libraries used in python"
+      ],
+      "responses": [
+        "Popular Python libraries include NumPy, Pandas, Matplotlib, TensorFlow, and Scikit-learn.",
+        "TensorFlow and PyTorch are commonly used for Deep Learning projects.",
+        "Pandas is widely used for data analysis and manipulation."
+      ]
+    },
+
+    {
+      "tag": "neural_network",
+      "patterns": [
+        "what is neural network",
+        "neural network",
+        "define neural network"
+      ],
+      "responses": [
+        "A Neural Network is a computing system inspired by the human brain.",
+        "Neural Networks consist of input, hidden, and output layers.",
+        "Neural Networks are widely used in Deep Learning."
+      ]
+    },
+
+    {
+      "tag": "cnn",
+      "patterns": [
+        "what is cnn",
+        "cnn",
+        "convolutional neural network"
+      ],
+      "responses": [
+        "CNN stands for Convolutional Neural Network.",
+        "CNNs are mainly used for image classification and computer vision.",
+        "CNN automatically extracts features from images using convolution layers."
+      ]
+    },
+
+    {
+      "tag": "nlp",
+      "patterns": [
+        "what is nlp",
+        "nlp",
+        "natural language processing"
+      ],
+      "responses": [
+        "NLP enables computers to understand and process human language.",
+        "NLP is used in chatbots, translation systems, and voice assistants.",
+        "Natural Language Processing combines AI and linguistics."
+      ]
+    },
+
+    {
+      "tag": "chatbot",
+      "patterns": [
+        "what is chatbot",
+        "chatbot",
+        "define chatbot"
+      ],
+      "responses": [
+        "A chatbot is a software application that interacts with users through text or voice.",
+        "Chatbots use AI and NLP to understand user queries.",
+        "Chatbots are widely used in customer support and virtual assistants."
+      ]
+    },
+
+    {
+      "tag": "tensorflow",
+      "patterns": [
+        "what is tensorflow",
+        "tensorflow",
+        "define tensorflow"
+      ],
+      "responses": [
+        "TensorFlow is an open-source Deep Learning framework developed by Google.",
+        "TensorFlow is widely used for AI and Machine Learning projects.",
+        "TensorFlow supports neural networks, NLP, and computer vision."
+      ]
+    },
+
+    {
+      "tag": "pytorch",
+      "patterns": [
+        "what is pytorch",
+        "pytorch",
+        "define pytorch"
+      ],
+      "responses": [
+        "PyTorch is an open-source Machine Learning framework developed by Meta.",
+        "PyTorch is popular for Deep Learning research and development.",
+        "PyTorch provides dynamic computation graphs and easy model building."
+      ]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thank you",
+        "thanks",
+        "thankyou"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Glad I could assist."
+      ]
+    },
+
+    {
+      "tag": "bye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "exit"
+      ],
+      "responses": [
+        "Goodbye! Have a wonderful day.",
+        "See you later!",
+        "Take care and happy learning!"
+      ]
+    }
+
+  ]
+}
